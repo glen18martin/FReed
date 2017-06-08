@@ -1,5 +1,5 @@
 # FReed
-A Feed Reader developed using Phonegap
+An RSS Feed Reader developed using Phonegap
   - Allows the user to search and view the feed of any website which provides them
   - Arranges the feed for appealing display
   - Provides link to complete article

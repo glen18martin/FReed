@@ -1,0 +1,151 @@
+.ui-bar-a,
+.ui-page-theme-a .ui-bar-inherit,
+html .ui-bar-a .ui-bar-inherit,
+html .ui-body-a .ui-bar-inherit,
+html body .ui-group-theme-a .ui-bar-inherit {
+    border: 1px solid #005994 !important;
+    background: #0093EA !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    text-shadow: 0 0 #eee !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #0093EA), to( #007dcd));
+    background-image: -webkit-linear-gradient( #0093EA, #007dcd);
+    background-image: -moz-linear-gradient( #0093EA, #007dcd);
+    background-image: -ms-linear-gradient( #0093EA, #007dcd);
+    background-image: -o-linear-gradient( #0093EA, #007dcd);
+    background-image: linear-gradient( #0093EA, #007dcd);
+}
+
+.ui-page-theme-a .ui-btn:hover,
+html .ui-bar-a .ui-btn:hover,
+html .ui-body-a .ui-btn:hover,
+html body .ui-group-theme-a .ui-btn:hover,
+html head+body .ui-btn.ui-btn-a:hover {
+    border: 1px solid #007dcd;
+    background: #333;
+    font-weight: bold;
+    text-shadow: 0 0 #eee !important;
+    color: #fff !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #0093EA), to( #0093EA));
+    background-image: -webkit-linear-gradient( #0093EA, #0093EA);
+    background-image: -moz-linear-gradient( #0093EA, #0093EA);
+    background-image: -ms-linear-gradient( #0093EA, #0093EA);
+    background-image: -o-linear-gradient( #0093EA, #0093EA);
+    background-image: linear-gradient( #0093EA, #0093EA);
+}
+
+.ui-page-theme-a .ui-btn.ui-btn-active,
+html .ui-bar-a .ui-btn.ui-btn-active,
+html .ui-body-a .ui-btn.ui-btn-active,
+html body .ui-group-theme-a .ui-btn.ui-btn-active,
+html head+body .ui-btn.ui-btn-a.ui-btn-active,
+.ui-page-theme-a .ui-checkbox-on:after,
+html .ui-bar-a .ui-checkbox-on:after,
+html .ui-body-a .ui-checkbox-on:after,
+html body .ui-group-theme-a .ui-checkbox-on:after,
+.ui-btn.ui-checkbox-on.ui-btn-a:after,
+.ui-page-theme-a .ui-flipswitch-active,
+html .ui-bar-a .ui-flipswitch-active,
+html .ui-body-a .ui-flipswitch-active,
+html body .ui-group-theme-a .ui-flipswitch-active,
+html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,
+.ui-page-theme-a .ui-slider-track .ui-btn-active,
+html .ui-bar-a .ui-slider-track .ui-btn-active,
+html .ui-body-a .ui-slider-track .ui-btn-active,
+html body .ui-group-theme-a .ui-slider-track .ui-btn-active,
+html body div.ui-slider-track.ui-body-a .ui-btn-active {
+    background-color: #0093EA !important;
+    border-color: #0093EA !important;
+    color: #fff;
+    text-shadow: 0 1px 0 #005599;
+}
+
+img {
+    padding: 25px;
+}
+
+#whatsearch {
+    padding-bottom: 25px;
+}
+
+button.ui-btn,
+.ui-controlgroup-controls button.ui-btn-icon-notext {
+    border-radius: 5px !important;
+}
+
+#searchbutton {
+    margin-bottom: 25px;
+}
+
+#main {
+    margin-top: 12% !important;
+}
+
+.ui-collapsible-inset.ui-collapsible-themed-content .ui-collapsible-content {
+    background-color: #ddd;
+    color: #111;
+}
+
+th {
+    border-bottom: 1px solid #d6d6d6 !important;
+}
+
+tr:nth-child(even) {
+    background: #e9e9e9 !important;
+}
+
+.ui-table {
+    margin-top: 5% !important;
+    border: 1px solid grey !important;
+    border-radius: 5px !important;
+    border-collapse: initial !important;
+}
+
+label {
+    font-weight: bold !important;
+}
+
+#label {
+    border: 1px solid #0093EA !important;
+    background: #fff !important;
+    color: #005994 !important;
+    font-weight: bold !important;
+    text-shadow: 0 0 #eee !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #0093EA), to( #007dcd));
+    background-image: -webkit-linear-gradient( #0093EA, #007dcd);
+    background-image: -moz-linear-gradient( #0093EA, #007dcd);
+    background-image: -ms-linear-gradient( #0093EA, #007dcd);
+    background-image: -o-linear-gradient( #0093EA, #007dcd);
+    background-image: linear-gradient( #0093EA, #007dcd);
+}
+
+strong#cat {
+    background-color: #009688;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+    padding: 5px !important;
+}
+
+p#catp {
+    padding: 5px !important;
+}
+
+.ui-listview>li.ui-last-child>a.ui-btn {
+    border-bottom-width: 1px;
+    text-align: center !important;
+    background-color: #0093EA !important;
+    border-color: white !important;
+}
+
+.ui-body-b {
+    background-color: white !important;
+}
+
+#formget {
+    background-color: black !important;
+}
+
+#inkthemes {
+    background-color: #21313f !important;
+}

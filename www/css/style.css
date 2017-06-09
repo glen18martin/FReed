@@ -142,10 +142,8 @@ p#catp {
     background-color: white !important;
 }
 
-#formget {
-    background-color: black !important;
-}
-
-#inkthemes {
-    background-color: #21313f !important;
+.ui-listview-inset>.ui-li-static,
+.ui-listview-inset>.ui-li-divider,
+.ui-listview-inset>li>a.ui-btn {
+    white-space: pre-line !important;
 }

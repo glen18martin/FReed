@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+    <!--Stylesheet Files : jQuery Mobile CSS File, Customized CSS File and Font Awesome for icons -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:b" rel="stylesheet">
+
+    <!--jQuery File : Library, Mobile Library,Google Feed API JS Cordova JS and Customized JS File -->
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+    <script type="text/javascript" src="https://rss2json.com/gfapi.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/feed.js"></script>
+    <title>Feeds</title>
+</head>
+
+<!--Beginning of the Body-->
+
+<body>
+    <div data-role="page">
+        <div data-role="header" data-position="fixed" class="ui-header ui-bar-a ui-header-fixed slidedown" role="banner">
+            <h1>FReed</h1>
+        </div>
+        <div data-role="main" class="ui-content" id="main">
+            <div id="input">
+                <!--Feed URL Text Box-->
+                <form>
+                    <ul data-role="listview" data-inset="true">
+                        <li class="ui-field-contain">
+                            <label for="name2">Enter a feed URL:</label>
+                            <input type="text" id="feedurl" value="" data-clear-btn="true">
+                        </li>
+                        <li class="ui-body ui-body-b">
+                            <a href="#" id="getfeed" class="ui-shadow ui-btn ui-corner-all">Get Feeds</a>
+                        </li>
+                    </ul>
+                </form>
+                <!--End of Feed URL Text Box-->
+
+            </div>
+            <div id="fg" class="ui-content">
+                <ul data-role="listview" data-inset="true" id="myTable">
+                </ul>
+            </div>
+
+            <!--End of the navbar-->
+
+        </div>
+    </div>
+    </div>
+    <div id="content"></div>
+</body>
+<!--End of the body-->
+
+</html>

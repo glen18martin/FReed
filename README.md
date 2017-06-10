@@ -1,4 +1,4 @@
-# FReed <img align="right" height="50px" alt="FReed" src="/screenshots/logo.png"></img> 
+# FReed <img align="left" height="50px" alt="FReed" src="/screenshots/logo.png"></img> 
 An RSS Feed Reader developed using Phonegap
   - Allows the user to search and view the feed of any website which provides them
   - Arranges the feed for appealing display

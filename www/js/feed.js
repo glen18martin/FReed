@@ -37,7 +37,7 @@ function initialize(url) {
                 var entry = result.feed.entries[i];
 
                 //Grabbing Blog URL, Blog title, Blog Category and Publish Date and displaying them
-                div1 += "<li><a class='ui-btn ui-btn-icon-right ui-icon-carat-r' id=\"link\" data-link=\"" + entry.link + "\">" + entry.title + "<p id=\"catp\"><strong id=\"cat\">" + entry.categories + "</strong></p><p>" + entry.publishedDate + "</p>" + "</a></li>";
+                div1 += "<li><a class='ui-btn ui-btn-icon-right ui-icon-carat-r' id=\"link\" data-link=\"" + entry.link + "\">" + entry.title + "<p>" + entry.publishedDate + "</p>" + "</a></li>";
                 document.getElementById("myTable").innerHTML = div1;
             }
         }

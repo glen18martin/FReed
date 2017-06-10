@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:b" rel="stylesheet">
 
     <!--jQuery File : Library, Mobile Library,Google Feed API JS Cordova JS and Customized JS File -->
     <script src="js/jquery-3.2.0.js"></script>
@@ -27,22 +28,22 @@
             <h1>FReed</h1>
         </div>
         <div data-role="main" class="ui-content" id="main">
+            <div id="input">
+                <!--Feed URL Text Box-->
+                <form>
+                    <ul data-role="listview" data-inset="true">
+                        <li class="ui-field-contain">
+                            <label for="name2">Enter a feed URL:</label>
+                            <input type="text" id="feedurl" value="" data-clear-btn="true">
+                        </li>
+                        <li class="ui-body ui-body-b">
+                            <a href="#" id="getfeed" class="ui-shadow ui-btn ui-corner-all">Get Feeds</a>
+                        </li>
+                    </ul>
+                </form>
+                <!--End of Feed URL Text Box-->
 
-            <!--Feed URL Text Box-->
-            <form>
-                <ul data-role="listview" data-inset="true">
-                    <li class="ui-field-contain">
-                        <label for="name2">Enter a feed URL:</label>
-                        <input type="text" id="feedurl" value="" data-clear-btn="true">
-                    </li>
-                    <li class="ui-body ui-body-b">
-                        <a href="#" id="getfeed" class="ui-shadow ui-btn ui-corner-all">Get Feeds</a>
-                    </li>
-                </ul>
-            </form>
-            <!--End of Feed URL Text Box-->
-
-
+            </div>
             <div id="fg" class="ui-content">
                 <ul data-role="listview" data-inset="true" id="myTable">
                 </ul>

@@ -3,17 +3,17 @@
 html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit,
 html body .ui-group-theme-a .ui-bar-inherit {
-    border: 1px solid #005994 !important;
-    background: #0093EA !important;
+    border: 1px solid black !important;
+    background: #263238 !important;
     color: #fff !important;
     font-weight: bold !important;
     text-shadow: 0 0 #eee !important;
-    background-image: -webkit-gradient(linear, left top, left bottom, from( #0093EA), to( #007dcd));
-    background-image: -webkit-linear-gradient( #0093EA, #007dcd);
-    background-image: -moz-linear-gradient( #0093EA, #007dcd);
-    background-image: -ms-linear-gradient( #0093EA, #007dcd);
-    background-image: -o-linear-gradient( #0093EA, #007dcd);
-    background-image: linear-gradient( #0093EA, #007dcd);
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #333), to( #333));
+    background-image: -webkit-linear-gradient( #333, #333);
+    background-image: -moz-linear-gradient( #333, #333);
+    background-image: -ms-linear-gradient( #333, #333);
+    background-image: -o-linear-gradient( #333, #333);
+    background-image: linear-gradient( #333, #333);
 }
 
 .ui-page-theme-a .ui-btn:hover,
@@ -21,17 +21,16 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head+body .ui-btn.ui-btn-a:hover {
-    border: 1px solid #007dcd;
+    border: 1px solid #333;
     background: #333;
     font-weight: bold;
     text-shadow: 0 0 #eee !important;
     color: #fff !important;
-    background-image: -webkit-gradient(linear, left top, left bottom, from( #0093EA), to( #0093EA));
-    background-image: -webkit-linear-gradient( #0093EA, #0093EA);
-    background-image: -moz-linear-gradient( #0093EA, #0093EA);
-    background-image: -ms-linear-gradient( #0093EA, #0093EA);
-    background-image: -o-linear-gradient( #0093EA, #0093EA);
-    background-image: linear-gradient( #0093EA, #0093EA);
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #333), to( #333));
+    background-image: -webkit-linear-gradient( #333, #333);
+    background-image: -ms-linear-gradient( #333, #333);
+    background-image: -o-linear-gradient( #333, #333);
+    background-image: linear-gradient( #333, #333);
 }
 
 .ui-page-theme-a .ui-btn.ui-btn-active,
@@ -78,7 +77,7 @@ button.ui-btn,
 }
 
 #main {
-    margin-top: 12% !important;
+    margin-top: 3% !important;
 }
 
 .ui-collapsible-inset.ui-collapsible-themed-content .ui-collapsible-content {
@@ -134,16 +133,50 @@ p#catp {
 .ui-listview>li.ui-last-child>a.ui-btn {
     border-bottom-width: 1px;
     text-align: center !important;
-    background-color: #0093EA !important;
-    border-color: white !important;
-}
-
-.ui-body-b {
-    background-color: white !important;
+    background-color: #263238 !important;
+    border-color: #263238 !important;
 }
 
 .ui-listview-inset>.ui-li-static,
 .ui-listview-inset>.ui-li-divider,
 .ui-listview-inset>li>a.ui-btn {
     white-space: pre-line !important;
+}
+
+.ui-content {
+    padding: 0em !important;
+}
+
+#input {
+    padding: 1em !important;
+}
+
+.ui-page {
+    background-color: #637589 !important;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color:#333/*{b-body-background-color}*/
+    !important;
+    border-color: #333/*{b-body-border}*/
+    ;
+    color: #0092EE/*{b-body-color}*/
+    ;
+    text-shadow: 0/*{b-body-shadow-x}*/
+    1px/*{b-body-shadow-y}*/
+    0/*{b-body-shadow-radius}*/
+    #111/*{b-body-shadow-color}*/
+    ;
+}
+
+.ui-header .ui-title,
+.ui-footer .ui-title {
+    font-size: 1.3em;
+    font-family: 'Cinzel', serif;
+    text-shadow: 3px 1px 2px black;
 }

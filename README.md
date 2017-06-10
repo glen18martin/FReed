@@ -19,6 +19,7 @@ Trackit uses a number of open source projects to work properly:
 Want to contribute? Great!
 
 ## ScreenShots
+<p align="center">
 ![alt text](/screenshots/ss1.png "Home Screen")
-![alt text](/screenshots/ss2.png "NEWS Screen")
+![alt text](/screenshots/ss2.png "NEWS Screen")</p>
 

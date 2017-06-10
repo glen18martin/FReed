@@ -20,6 +20,10 @@ Want to contribute? Great!
 
 ## ScreenShots
 <p align="center">
+<img align="center" src="/screenshots/ss1.png"></img>
+<img align="center" src="/screenshots/ss2.png"></img></p>
+
+
 ![alt text](/screenshots/ss1.png "Home Screen")
-![alt text](/screenshots/ss2.png "NEWS Screen")</p>
+![alt text](/screenshots/ss2.png "NEWS Screen")
 

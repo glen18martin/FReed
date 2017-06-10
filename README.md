@@ -19,5 +19,7 @@ Trackit uses a number of open source projects to work properly:
 Want to contribute? Great!
 
 ## ScreenShots
+<p align="center">
+<img align="center" alt="Home" src="/screenshots/ss1.png"></img>
+<img align="center" alt="NEWS feed" src="/screenshots/ss2.png"></img></p>
 
-Coming Soon!

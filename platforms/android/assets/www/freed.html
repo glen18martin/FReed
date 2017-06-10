@@ -18,23 +18,45 @@
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/feed.js"></script>
     <title>Feeds</title>
+
+
 </head>
 
 <!--Beginning of the Body-->
 
 <body>
     <div data-role="page">
-        <img id="logo" src="img/logo.png"></img>
-        <div id="name">
-            <p style="margin-bottom: 0em;margin-top: 0em">FReed</p>
+        <div data-role="header" data-position="fixed" class="ui-header ui-bar-a ui-header-fixed slidedown" role="banner">
+            <h1>FReed</h1>
         </div>
-        <div id="desc">
-            <p style="margin-top: 0em">The Feed based NEWS App</p>
-        </div>
-        <a href="freed.html"><img id="go" src="img/go.png"></img>
-        </a>
-    </div>
+        <div data-role="main" class="ui-content" id="main">
+            <div id="input">
+                <!--Feed URL Text Box-->
+                <form>
+                    <ul data-role="listview" data-inset="true">
+                        <li class="ui-field-contain">
+                            <label for="name2">Enter a feed URL:</label>
+                            <input type="text" id="feedurl" value="" data-clear-btn="true">
+                        </li>
+                        <li class="ui-body ui-body-b">
+                            <a href="#" id="getfeed" class="ui-shadow ui-btn ui-corner-all">Get Feeds</a>
+                        </li>
+                    </ul>
+                </form>
+                <!--End of Feed URL Text Box-->
 
+            </div>
+            <div id="fg" class="ui-content">
+                <ul data-role="listview" data-inset="true" id="myTable">
+                </ul>
+            </div>
+
+            <!--End of the navbar-->
+
+        </div>
+    </div>
+    </div>
+    <div id="content"></div>
 </body>
 <!--End of the body-->
 

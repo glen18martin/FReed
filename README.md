@@ -8,9 +8,9 @@ An RSS Feed Reader developed using Phonegap
 
 ### Prerequisites
 Trackit uses a number of open source projects:
-* [Phonegap](http://phonegap.com)
+* [Phonegap](http://phonegap.com) (for android, web & ios)
 * [Framework7](https://framework7.io/)
-* [jQuery](https://jquery.com) jQuery and jQuery mobile
+* [jQuery](https://jquery.com) (jQuery and jQuery mobile)
 * [rss2json](https://rss2json.com)
 
 

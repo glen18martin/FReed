@@ -22,12 +22,12 @@ ios build in progress
 
 ## ScreenShots
 <p align="center">
-<img align="center"   alt="Home" src="/screenshots/ss1.png"></img> &nbsp &nbsp
-<img align="center"  alt="NEWS feed" src="/screenshots/ss2.png"></img></p>
+<img align="center" height="650px"  alt="Home" src="/screenshots/ss1.png"></img> &nbsp &nbsp
+<img align="center" height="650px" alt="NEWS feed" src="/screenshots/ss2.png"></img></p>
 
 <p align="center">
-<img align="center"  alt="Select required feed" src="/screenshots/ss3.png"></img> &nbsp &nbsp
-<img align="center"  alt="Browser" src="/screenshots/ss4.png"></img></p>
+<img align="center" height="650px" alt="Select required feed" src="/screenshots/ss3.png"></img> &nbsp &nbsp
+<img align="center" height="650px" alt="Browser" src="/screenshots/ss4.png"></img></p>
 
 
 # Coming Soon!

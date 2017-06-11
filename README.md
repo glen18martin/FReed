@@ -16,6 +16,9 @@ Trackit uses a number of open source projects to work properly:
 
 ### Development
 
+Android BETA Ready !!!
+ios build in progress
+
 Want to contribute? Great!
 
 ## ScreenShots

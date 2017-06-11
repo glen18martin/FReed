@@ -1,12 +1,13 @@
 # FReed <img align="left" height="50px" alt="FReed" src="/screenshots/logo.png"></img> 
 An RSS Feed Reader developed using Phonegap
+
   - Allows the user to search and view the feed of any website which provides them
   - Arranges the feed for appealing display
-  - Provides link to complete article
+  - Provides links to complete articles
 
 
 ### Prerequisites
-Trackit uses a number of open source projects to work properly:
+Trackit uses a number of open source projects:
 
 * [Phonegap](http://phonegap.com)
 * [Framework7](https://framework7.io/)
@@ -19,7 +20,6 @@ Trackit uses a number of open source projects to work properly:
 Android BETA Ready !!!
 ios build in progress
 
-Want to contribute? Great!
 
 ## ScreenShots
 <p align="center">
@@ -29,4 +29,10 @@ Want to contribute? Great!
 <p align="center">
 <img align="center"  alt="Select required feed" src="/screenshots/ss3.png"></img> &nbsp &nbsp
 <img align="center"  alt="Browser" src="/screenshots/ss4.png"></img></p>
+
+
+# Coming Soon!
+
+ - Database integration
+ - App will store your favourite feed sites
 

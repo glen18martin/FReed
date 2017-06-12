@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.glayne.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.glayne.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>FReed</name>
     <description>
         A blank PhoneGap app.
@@ -9,6 +9,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="http://*/*" />
-    <allow-navigation href="https://*/*" />
+    <!-- Wildcards are allowed for the protocol, as a prefix
+     to the host, or as a suffix to the path -->
+       <allow-navigation href="http://*/*" />
+<allow-navigation href="https://*/*" />
 </widget>

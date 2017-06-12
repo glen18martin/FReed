@@ -39,6 +39,35 @@ function initialize(url) {
                 //Grabbing Blog URL, Blog title, Blog Category and Publish Date and displaying them
                 div1 += "<li><a class='ui-btn ui-btn-icon-right ui-icon-carat-r' id=\"link\" data-link=\"" + entry.link + "\">" + entry.title + "<p>" + entry.publishedDate + "</p>" + "</a></li>";
                 document.getElementById("myTable").innerHTML = div1;
+
+                var title = entry.title;
+                var link = entry.link;
+                var date = entry.publishedDate;
+
+                //console.log(title);
+
+                title = title.toString().replace(/\'/g, " ");
+                title = title.toString().replace(/&amp;/g, "and");
+
+                //console.log(title);
+
+
+                var dataString = "title=" + title + "&link=" + link + "&date=" + date + "&insert=";
+                $.ajax({
+                    type: "POST",
+                    url: "http://192.168.0.5:3002/save", //replace with url
+                    data: dataString,
+                    crossDomain: true,
+                    cache: false,
+                    success: function(data) {
+                        if (data == "success") {
+
+                        } else if (data == "error") {
+                            alert("Connection ERROR");
+                        }
+                    }
+                });
+
             }
         }
     });

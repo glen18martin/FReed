@@ -5,6 +5,8 @@ An RSS Feed Reader developed using Phonegap
   - Arranges the feed for appealing display
   - Provides links to complete articles
 
+### Whats New!
+ - Database Integration
 
 ### Prerequisites
 Trackit uses a number of open source projects:
@@ -12,11 +14,39 @@ Trackit uses a number of open source projects:
 * [Framework7](https://framework7.io/)
 * [jQuery](https://jquery.com) (jQuery and jQuery mobile)
 * [rss2json](https://rss2json.com)
+* [nodejs](https://nodejs.org/en/)
+* [Postgresql](https://www.postgresql.org/)
 
+
+### Installing
+
+##### Clone the repository
+```bash
+$ git clone https://github.com/glen18martin/FReed.git
+$ cd FReed
+```
+
+##### Start the NodeJS Server
+```bash
+$ cd server
+$ node app.js
+```
+
+##### Import the database
+```Backup file
+```
+
+##### Make necessary changes
+* Change the PostgreSQL variable connectionString to your appropriate username and password in app.js
+* Change the host address and port address to preferred choice in app.js and feed.js.
+!PORT NUMBERS MUST BE SAME IN BOTH FILES
+
+#### Finally build the app and install 
+Built app will be generated at FReed\platforms\android\build\outputs\apk
 
 ### Development
 
-Android BETA Ready !!!
+Android BETA Ready !!! <br>
 ios build in progress
 
 
@@ -32,6 +62,5 @@ ios build in progress
 
 # Coming Soon!
 
- - Database integration
  - App will store your favourite feed sites
 

@@ -12,10 +12,6 @@
 
                 app.post('/save', function(req, res) {
 
-                    console.log('req.body');
-                    console.log(req.body.title);
-
-                    // var lol = JSON.parse(req.body);
                     var title = req.body.title;
                     console.log(title);
                     var link = req.body.link;
@@ -31,5 +27,23 @@
                             throw err;
                     });
                 });
+
+
+                app.post('/fav', function(req, res) {
+
+                    // var lol = JSON.parse(req.body);
+                    var url = req.body.url;
+
+                    client.query("INSERT INTO rss(url) VALUES ('" + url + "')  ON CONFLICT (url) DO NOTHING;", function(err, result) {
+                        if (err)
+                            throw err;
+                    });
+
+                    client.query("SELECT pg_sleep(1.5);", function(err, result) {
+                        if (err)
+                            throw err;
+                    });
+                });
+
                 app.listen(3002);
                 console.log('FReed listening at port:3002');

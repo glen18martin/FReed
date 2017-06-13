@@ -78,5 +78,21 @@ $(document).ready(function() {
     $("#getfeed").click(function() {
         var url = $("#feedurl").val();
         initialize(url);
+
+        var dataString = "url=" + url + "&insert=";
+        $.ajax({
+            type: "POST",
+            url: "http://192.168.0.5:3002/fav", //replace with url
+            data: dataString,
+            crossDomain: true,
+            cache: false,
+            success: function(data) {
+                if (data == "success") {
+
+                } else if (data == "error") {
+                    alert("Connection ERROR");
+                }
+            }
+        });
     });
 });

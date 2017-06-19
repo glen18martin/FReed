@@ -50,6 +50,10 @@ $ node app.js
 !PORT NUMBERS MUST BE SAME IN BOTH FILES
 
 #### Finally build the app and install 
+```bash
+$ phonegap build android
+$ phonegap build ios
+```
 Built app will be generated at FReed\platforms\android\build\outputs\apk
 
 ### Development

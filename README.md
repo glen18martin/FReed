@@ -36,12 +36,12 @@ $ node app.js
  - DB name: FReed
  
   - table name: feeds
-   - columns: srno | title | link | published_date
-   - data type: srno(serial) , title(character) , link(character) , published_date(character)
+      - columns: srno | title | link | published_date
+      - data type: srno(serial) , title(character) , link(character) , published_date(character)
    
   - table name: rss
-   - columns: url
-   - data type: url(character) 
+      - columns: url
+      - data type: url(character) 
  
 
 ##### Make necessary changes

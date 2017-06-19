@@ -7,6 +7,7 @@ An RSS Feed Reader developed using Phonegap
 
 ### Whats New!
  - Database Integration
+ - Favourite rss feed websites can be accessed with press of a button
 
 ### Prerequisites
 Trackit uses a number of open source projects:
@@ -51,6 +52,7 @@ $ node app.js
 
 #### Finally build the app and install 
 ```bash
+$ phonegap build
 $ phonegap build android
 $ phonegap build ios
 ```
@@ -74,5 +76,4 @@ ios build in progress
 
 # Coming Soon!
 
- - App will store your favourite feed sites
-
+Store favourite feeds to read later!!!

@@ -34,9 +34,15 @@ $ node app.js
 
 ##### SETUP the database
  - DB name: FReed
- - table name: feeds
- - columns: srno | title | link | published_date
- - data type: srno(serial) , title(character) , link(character) , published_date(character)
+ 
+  - table name: feeds
+   - columns: srno | title | link | published_date
+   - data type: srno(serial) , title(character) , link(character) , published_date(character)
+   
+  - table name: rss
+   - columns: url
+   - data type: url(character) 
+ 
 
 ##### Make necessary changes
 * Change the PostgreSQL variable connectionString to your appropriate username and password in app.js

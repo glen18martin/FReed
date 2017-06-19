@@ -10,6 +10,10 @@ function onDeviceReady() {
         var ref = window.open(website, '_blank', 'location=yes');
 
     });
+
+    $(document).on('click', '#rlink', function() {
+        console.log('test');
+    });
 }
 
 //Loading Javascript API
@@ -55,7 +59,7 @@ function initialize(url) {
                 var dataString = "title=" + title + "&link=" + link + "&date=" + date + "&insert=";
                 $.ajax({
                     type: "POST",
-                    url: "http://192.168.0.5:3002/save", //replace with url
+                    url: "http://192.168.0.4:3002/save", //replace with url
                     data: dataString,
                     crossDomain: true,
                     cache: false,
@@ -94,5 +98,58 @@ $(document).ready(function() {
                 }
             }
         });
+    });
+});
+
+
+//posting favourites setfeed
+
+$(document).ready(function() {
+    $("#getfav").click(function() {
+
+        console.log('hello');
+
+        $.ajax({
+            type: "GET",
+            url: "http://192.168.0.4:3002/list", //replace with url
+            dataType: 'jsonp',
+            crossDomain: true,
+            cache: false,
+            success: function(data) {
+                //name = JSON.stringify(data.results);
+
+                var i;
+
+                var arr = [];
+                for (elem in data.results) {
+                    arr.push(JSON.stringify(data.results[elem]));
+                }
+
+                var div1 = "";
+
+                for (i = 0; i < arr.length; i++) {
+                    //console.log(arr[i]);
+
+                    var me = arr[i];
+                    var res = me.split(":\"");
+                    var ur = res[1].split("\"");
+                    console.log(ur[0]); //contains the url
+                    //console.log('test');
+
+                    div1 += "<li><a class='ui-btn ui-btn-icon-right ui-icon-carat-r'  id=\"rlink\" data-link=\"" + ur[0] + "\">" + ur[0] + "</a></li>";
+                    document.getElementById("myTablez").innerHTML = div1;
+
+                }
+
+                /*  var me = arr[0];
+                  var res = me.split(":", 1);
+
+                  console.log(res);*/
+            }
+        });
+
+        console.log('ho');
+
+
     });
 });

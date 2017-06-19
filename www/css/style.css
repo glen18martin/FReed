@@ -210,3 +210,9 @@ html .ui-panel-page-container-b {
     padding-top: 5%;
     padding-bottom: 0em;
 }
+
+#rlink {
+    overflow: visible !important;
+    text-overflow: initial !important;
+    word-wrap: break-word !important;
+}

@@ -45,5 +45,30 @@
                     });
                 });
 
+                app.get('/list', function(req, res) {
+
+
+
+                    var i = 0;
+                    const query = client.query('SELECT * FROM rss');
+                    var results = [];
+                    query.on('row', (row) => {
+                        results.push(row);
+                        i++;
+                    });
+
+                    query.on('end', () => {
+                        //console.log(results);
+                        results: JSON.stringify(results);
+                        res.jsonp({ results: results });
+                        console.log(results);
+                    });
+
+                    //res.send(results);
+
+
+
+                });
+
                 app.listen(3002);
                 console.log('FReed listening at port:3002');
